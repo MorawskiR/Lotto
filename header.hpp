@@ -6,6 +6,12 @@
 
 extern std::vector<int>DrawnNumbers;
 extern std::vector<int>vector1;
+extern std::vector<int>vector2;
+extern std::vector<int>vector3;
+extern std::vector<int>vector4;
+extern std::vector<int>vector5;
+extern std::vector<int>vector6;
+
 extern std::map<size_t, std::string> counter;
 extern std::map<size_t, size_t> mapka;
 extern int meter;
