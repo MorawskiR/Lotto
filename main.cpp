@@ -9,9 +9,9 @@
 
 int main()
 {
-print(counter);
+print(mapka);
 CheckNums(DrawnNumbers, vector1);
-print(counter);
+print(mapka);
 return 0;
 
 }

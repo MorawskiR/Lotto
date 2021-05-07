@@ -4,8 +4,10 @@
 
 
 std::vector<int>DrawnNumbers{1,5,10,20,27};
-std::vector<int>vector1{1,2,3,6,12};
+std::vector<int>vector1{1,5,27,20,10};
 std::map<size_t, std::string> counter { {0,"0"}, {1,"0"}, {2, "0"}, {3,"0"}, {4,"0"} };
+
+std::map<size_t, size_t> mapka { {0,0}, {1,0}, {2, 0}, {3,0}, {4,0}, {5,0} };
 int meter = 0;
 void CheckNums(std::vector<int> & Drawn, std::vector<int> & MyNums)
 {
@@ -22,17 +24,17 @@ void CheckNums(std::vector<int> & Drawn, std::vector<int> & MyNums)
             }
         }
     }
-    counter[1] = "aaa";
+    mapka[meter]++;
    // std::map<size_t, std::string> staffMap {{10, "aa"}};
 }
 
-void print( std::map<size_t, std::string> mapa )
+void print( std::map<size_t, size_t> mapa )
 {
     for (const auto &i : mapa)
     {
         std::cout<<i.first<< " " <<i.second<<"\n";
     }
-  
+  std::cout<<"\n";
 }
 // void print( std::map<size_t, std::string> nazwa)
 // {
