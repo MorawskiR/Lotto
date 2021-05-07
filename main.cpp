@@ -10,8 +10,7 @@
 int main()
 {
 
-
-
+print(counter);
 return 0;
 
 }

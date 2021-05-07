@@ -1,9 +1,10 @@
 #include "header.hpp"
 #include <iostream>
+#include <map>
 
 std::vector<int>DrawnNumbers{1,5,10,20,27};
 std::vector<int>vector1{1,2,3,6,12};
-
+std::map<size_t, std::string> counter { {1,"0"}, {2,"0"}, {3, "0"}, {4,"0"}, {5,"0"} };
 std::map <size_t, std::string > CheckNums(std::vector<int> & Drawn, std::vector<int> & MyNums)
 {
     for(const auto & el:Drawn)
@@ -21,7 +22,7 @@ std::map <size_t, std::string > CheckNums(std::vector<int> & Drawn, std::vector<
     return staffMap;
 }
 
-void print( std::map<size_t, size_t> mapa )
+void print( std::map<size_t, std::string> mapa )
 {
     for (const auto &i : mapa)
     {

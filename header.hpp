@@ -6,7 +6,7 @@
 
 extern std::vector<int>DrawnNumbers;
 extern std::vector<int>vector1;
-extern std::map<int, std::string>
+extern std::map<size_t, std::string> counter;
 
 std::map <size_t, std::string> CheckNums(std::vector<int> & Drawn, std::vector<int> & MyNums);
 void print( std::map<size_t, std::string> mapa);
