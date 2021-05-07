@@ -9,7 +9,8 @@
 
 int main()
 {
-
+print(counter);
+CheckNums(DrawnNumbers, vector1);
 print(counter);
 return 0;
 
